@@ -1,6 +1,6 @@
 class VideosController < ApplicationController
 
-      def index
+  def index
     videos = Video.all
     render json: videos
   end
